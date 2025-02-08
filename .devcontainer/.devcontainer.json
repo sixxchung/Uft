@@ -1,6 +1,8 @@
 {
-    "name": "SixxDevCon Ulangchain",
-      "build": {
-          "dockerfile": "Dockerfile"
-      }
+    "name": "SixxDevCon Uft",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "forwardPorts": [8501, 8888],
+    "runArgs": ["--gpus", "all"]
 }
