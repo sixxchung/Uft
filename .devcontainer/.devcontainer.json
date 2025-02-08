@@ -1,0 +1,6 @@
+{
+    "name": "SixxDevCon Ulangchain",
+      "build": {
+          "dockerfile": "Dockerfile"
+      }
+}
